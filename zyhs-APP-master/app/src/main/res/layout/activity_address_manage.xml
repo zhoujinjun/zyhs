@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/img_2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/test_image" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+
+    <Button
+        android:id="@+id/seeaddress"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_btn"
+        android:text="查看默认地址" />
+
+        <TextView
+            android:id="@+id/messageshow1"
+            android:layout_width="196dp"
+            android:layout_height="96dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="30dp"
+            android:text="信息显示框"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/seeaddress2"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_btn"
+            android:text="查看已有地址" />
+
+        <TextView
+            android:id="@+id/messageshow2"
+            android:layout_width="196dp"
+            android:layout_height="96dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="30dp"
+            android:text="信息显示框"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/editaddress"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn"
+        android:text="修改地址" />
+
+
+    <Button
+        android:id="@+id/addaddress"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn"
+        android:text="添加地址" />
+
+
+</LinearLayout>
